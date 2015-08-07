@@ -4,7 +4,10 @@ class EmployeesController < ApplicationController
   # GET /employees
   # GET /employees.json
   def index
-    @employees = Employee.all
+    # by default value of record per page is 25
+    # @employees = Employee.all.page(params[:page])
+    @employees = Employee.all.page(params[:page]).per(10)
+
   end
 
   # GET /employees/1
