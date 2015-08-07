@@ -14,8 +14,8 @@ This is just dummy application to show the pagination by using kaminari gem
 
 1 . clone this repo
 
-2. install gem
+2 . install gem
 
-3. set up the database
+3 . set up the database
 
-4. just rum 'rake db:populate' to save fake data in database
+4 . just rum 'rake db:populate' to save fake data in database
