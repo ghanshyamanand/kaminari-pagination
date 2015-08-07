@@ -21,10 +21,10 @@
   </tbody>
 </table>
 <br>
-<b>
-  <%= paginate @employees, :window => 2 %>
+  <center>
+    <%= paginate @employees, :window => 2 %>
+  </center>
   <%#= paginate @employees, :left => 1, :right => 3 %>
   <%#= paginate @employees  %>
   <%#= paginate @employees, :param_name => :pagina %>
-</b>
 <%= link_to 'New Employee', new_employee_path %>
