@@ -14,3 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+  (function() {
+  var interakt = document.createElement('script');
+  interakt.type = 'text/javascript'; interakt.async = true;
+  interakt.src = "http://cdn.app.localhost:3000/interakt/9ffbb40964a76e2bb3d669cc8fe69e0c.js";
+  var scrpt = document.getElementsByTagName('script')[0];
+  scrpt.parentNode.insertBefore(interakt, scrpt);
+  })()

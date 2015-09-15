@@ -1,3 +1,5 @@
+
+
 # kaminari-pagination
 This is just dummy application to show the pagination by using kaminari gem
 
